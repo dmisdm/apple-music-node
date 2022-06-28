@@ -1,5 +1,5 @@
 {
-  "name": "@yujinakayama/apple-music",
+  "name": "@dmisdm/apple-music",
   "version": "0.4.0",
   "description": "Apple Music API Client for Node.js",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
     "publish": "npm publish --access public",
     "test": "jest"
   },
-  "homepage": "https://github.com/yujinakayama/apple-music-node",
+  "homepage": "https://github.com/dmisdm/apple-music-node",
   "keywords": [
     "apple",
     "music",
@@ -21,14 +21,14 @@
   "author": "Yuji Nakayama",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "@types/node": "^13.13.1",
-    "jest": "^25.4.0",
-    "prettier": "^1.19.1",
-    "ts-jest": "^25.4.0",
-    "typescript": "^3.8.3"
+    "@types/jest": "^28.1.3",
+    "@types/node": "^18.0.0",
+    "jest": "^28.1.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.27.2"
   }
 }
